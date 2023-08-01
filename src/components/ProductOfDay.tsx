@@ -6,6 +6,7 @@ import AddToCart from "./AddToCart";
 import { useGetRandomProductQuery } from "../store/apiquery/productApiSlice";
 import Spinner from "./Spinner";
 import { link } from "../Utils/Generals";
+import { ProductType } from "./ProductCart";
 
 const ProductOfDay = () => {
   //   const { data: product, isLoading, isError } = useGetRandomProductQuery("");
@@ -20,7 +21,7 @@ const ProductOfDay = () => {
         old_price: 200,
         reviews: 5,
         desc: "Desc",
-        reduction: 0,
+        reduction: "0",
         created_at: "2023-05-30T19:27:14.000000Z",
         updated_at: "2023-05-30T19:27:14.000000Z",
         total_quantity: 145,
@@ -69,8 +70,8 @@ const ProductOfDay = () => {
             <p>{product.data[0].desc}</p>
           </div>
           <div className="d-flex gap-2">
-            <NumberCount product={product.data[0]} min={1} />
-            <AddToCart product={product.data[0]} divClass="align-self-center" />
+            <NumberCount product={product.data[0] as ProductType} min={1} />
+            <AddToCart product={product.data[0] as ProductType} divClass="align-self-center" />
           </div>
         </div>
       </div>
