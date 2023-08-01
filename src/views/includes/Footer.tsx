@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className="opacity-75">
                             <div><i className="bi bi-geo-alt fd-color-primary me-2"></i>Cotonou, Bénin</div>
                             <div><i className="bi bi-phone fd-color-primary me-2"></i>+229 96457545</div>
-                            <div><i className="bi bi-envelope fd-color-primary me-2"></i>elfriedv16@gmail.com</div>
+                            <div><i className="bi bi-envelope fd-color-primary me-2"></i>ints.dangth@gmail.com</div>
                         </div>
                         <SocialsNetworks />
                     </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div><hr />
                 <div className="d-flex flex-wrap justify-content-between">
                     <p><img src="/img/payment.png" alt="" className='w-100'/></p>
-                    <p className="opacity-75">Copyright &copy; 2023 By <span className='fw-bold'>Elfried Fortunatus KIDJE</span></p>
+                    <p className="opacity-75">Copyright &copy; 2023 By <span className='fw-bold'>DangTH</span></p>
                 </div>
             </div>
         </footer>

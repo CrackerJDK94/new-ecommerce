@@ -71,7 +71,7 @@ const AdminDetails = () => {
             <div className='d-flex gap-2 my-3'>
                 <label className='w-100'>
                     <span>Email</span>
-                    <input type="email" name="email" className="form-control w-100 rounded-2 p-2" value='elfriedv16@gmail.com' disabled />
+                    <input type="email" name="email" className="form-control w-100 rounded-2 p-2" value='ints.dangth@gmail.com' disabled />
                 </label>
                 <label className='w-100'>
                     <span>Phone</span>
@@ -115,7 +115,7 @@ const AdminList = () => {
                         <td scope="row w-25">{++count}</td>
                         <td className='fw-bold'>KIDJE</td>
                         <td className='opacity-75'>Fortunatus</td>
-                        <td className='opacity-75'>elfriedv16@gmail.com</td>
+                        <td className='opacity-75'>ints.dangth@gmail.com</td>
                         <td className='opacity-75'>96457545</td>
                     </tr>
                     <tr className="p-3">
