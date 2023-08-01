@@ -2,10 +2,16 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 import { ProductType } from '../../components/ProductCart';
 import { BASE_URL } from '../../Utils/Generals';
 
+const createNoCorsFetchBaseQuery = () =>
+  fetchBaseQuery({
+    baseUrl: BASE_URL,
+    mode: 'no-cors', // Set the 'no-cors' mode here
+});
+
 export const productApiSlice = createApi({
     
     reducerPath : 'api/products',
-    baseQuery : fetchBaseQuery({baseUrl : BASE_URL}),
+    baseQuery : createNoCorsFetchBaseQuery(),
     tagTypes : ['Products'],
 
     endpoints : (builder) => ({

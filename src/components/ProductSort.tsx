@@ -9,7 +9,7 @@ const ProductSort = (props : ProductType) => {
     return (
         <div className="d-flex w-100 gap-3 h-25 mb-3 bg-white">
             <div className="w-25 border-1 border fd-hover-border-primary">
-                <Link to={"/product/" + props.id}><img src={link(props.img)} alt={props.name} className="w-100 h-100"/></Link>
+                {/* <Link to={"/product/" + props.id}><img src={link(props.img)} alt={props.name} className="w-100 h-100"/></Link> */}
             </div>
             <div className="w-75">
                 <Link to={"/product/" + props.id} className="product-name my-2 fw-bold text-dark">{props.name}</Link>

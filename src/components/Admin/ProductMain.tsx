@@ -228,6 +228,8 @@ const ListOfProducts = ({ setProduct, setPage }: { setProduct: Function, setPage
 	const { isLoading, data: productsList, isSuccess, isError } = useGetAllProductsQuery('api/products');
 	const [deleteProduct, deletedResult] = useDeleteProductMutation();
 
+	console.log("productsList: ",productsList)
+
 	const parseProduct = (product: ProductType) => {
 		setProduct(product);
 		setPage('add');
