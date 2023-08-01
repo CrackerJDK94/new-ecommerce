@@ -68,7 +68,7 @@ const Header: FC = () => {
             <div className="d-lg-flex justify-content-between font-light fd-bg-secondary px-3 py-2 px-lg-5">
                 <div className="d-flex header-contacts d-none d-lg-block gap-3">
                     <span><i className='bi bi-envelope fd-color-primary'></i>&nbsp; ints.dangth@gmail.com</span>
-                    <span><i className="bi bi-geo-alt fd-color-primary"></i>&nbsp; Cotonou, Bénin</span>
+                    <span><i className="bi bi-geo-alt fd-color-primary"></i>&nbsp; Hanoi, Vietnam</span>
                 </div>
                 <div className='d-flex justify-content-between header-socials-lang'>
                     <SocialsNetworks />
